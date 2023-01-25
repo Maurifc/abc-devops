@@ -38,7 +38,7 @@ sops 3.7.3 (latest)
 ## Criando chave no Google KMS
 Crie o keyring
 ```bash
-gcloud kms keyrings create KEY_RING \
+gcloud kms keyrings create sops-keyring \
     --location global
 ```
 
